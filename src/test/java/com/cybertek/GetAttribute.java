@@ -25,10 +25,10 @@ public class GetAttribute {
         //get the value attribute of the element
         System.out.println("searchBox.getAttribute(\"value\") = " + searchBox.getAttribute("value"));
 
-        //identify and safe the search button element
+        //identify and save the search button element
         WebElement searchBtn = driver.findElement(By.name("btnk"));
 
-        //get tag name of the element, get , class atribute
+        //get tag name of the element, get , class attribute
         System.out.println("searchBtn.getTagName() = " + searchBtn.getTagName());
 
         System.out.println("searchBtn.getAttribute(\"class\") = " + searchBtn.getAttribute("class"));
