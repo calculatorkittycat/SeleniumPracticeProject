@@ -71,7 +71,7 @@ public class SauceLabs {
         //TODO: Click on continue to shop button to come back to product page
         driver.findElement(By.id("continue-shopping")).click();
 
-        driver.quit();
+        //driver.quit();
 
 
 
